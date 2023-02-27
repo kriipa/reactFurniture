@@ -1,0 +1,79 @@
+    .ProductCard {
+        border: rgb(97, 88, 88) 1px solid;
+        border-radius: 15px;
+        background-color: #2e523dd8;
+        box-shadow: 0 0 10px 0 rgba(154, 138, 138, 0.2);
+    }
+    
+    .ProductImg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: #999 1px solid;
+        border-radius: 15px 15px 0 0;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .productName {
+        color: #fff;
+    }
+    
+    .p__Price{
+        color: #fff;
+    }
+    
+    /* .productName {
+        font-family: Roboto;
+        font-size: 1.7rem;
+        font-weight: 200;
+        color: #5f3b1d;
+        margin: 0;
+        padding: 0;
+        border: #8e6730 1px solid;
+    } */
+    
+    ul.pagination {
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+    .page-item {
+        background-color: #fff;
+        list-style: none;
+        border: 1px solid rgba(0, 0, 0, 0.178);
+        padding: 1vmax 1.5vmax;
+        transition: all 0.3s;
+        cursor: pointer;
+    }
+    .page-item:first-child {
+        border-radius: 5px 0 0 5px;
+    }
+    .page-item:last-child {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .page-link {
+        font: 300 0.7vmax "Roboto";
+        color: rgb(80, 80, 80);
+        transition: all 0.3s;
+    }
+    .page-item:hover {
+        background-color: rgb(230, 230, 230);
+    }
+    .page-item:hover .page-link {
+        color: rgb(37, 37, 37);
+    }
+    .pageItemActive {
+        background-color: #197ef3;
+    }
+    .pageLinkActive {
+        color: white;
+    }
+    li.category-link {
+        list-style: none;
+        font-family: Roboto;
+        cursor: pointer;
+        border-top: 1px solid #999;
+        padding: 10px 10px;
+    }
+    
